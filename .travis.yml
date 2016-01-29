@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - 2.2
+before_script:
+  - wget https://codeload.github.com/dkhamsing/frankenstein/tar.gz/dev -O /tmp/frankenstein.tar.gz
+  - tar -xvf /tmp/frankenstein.tar.gz
+  - export PATH=$PATH:$PWD/frankenstein-dev/bin/
+  - cd frankenstein-dev
+  - bundle install
+script:  
+  - frankenstein ../README.md -v
+  - frankenstein dkhamsing/open-source-ios-apps -v threads=10
