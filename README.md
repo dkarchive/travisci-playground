@@ -14,4 +14,4 @@ Testing integration with https://github.com/dkhamsing/awesome_bot
   https://this-week-in-rust.org/  
   https://data.nasdaq.com/  
   https://pictonic.co
-  http://calltospeakers.com/
+  https://calltospeakers.com/
