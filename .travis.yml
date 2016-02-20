@@ -2,10 +2,9 @@ language: ruby
 rvm:
   - 2.2
 before_script:
-  - wget https://codeload.github.com/dkhamsing/awesome_bot/tar.gz/dev -O /tmp/temp.tar.gz
+  - wget https://codeload.github.com/dkhamsing/awesome_bot/tar.gz/ssl -O /tmp/temp.tar.gz
   - tar -xvf /tmp/temp.tar.gz
-  - cd awesome_bot-dev
+  - cd awesome_bot-ssl
   - bundle install
 script:
-  - ./bin/awesome_bot ../README.md
-  - ./bin/awesome_bot ../awesome-public-datasets.md --set-timeout 5 --allow-timeout --allow-redirect --allow-dupe --white-list nasdaq,137.189,stat.cmu,datamob,stats4stem,numbrary,getglue,datawrangling,crawdad,gutenberg,calufa,acs/www/
+  - ./bin/awesome_bot  
