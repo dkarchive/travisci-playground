@@ -7,4 +7,5 @@ before_script:
   - cd awesome_bot-ssl
   - bundle install
 script:
-  - ./bin/awesome_bot  
+  - ./bin/awesome_bot ../README.md 
+  - ./bin/awesome_bot ../README.md --ignore-ssl
