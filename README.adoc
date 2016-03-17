@@ -1,0 +1,194 @@
+
+= Awesome Kotlin
+:hardbreaks:
+:toc:
+:toc-placement!:
+
+A curated list of awesome Kotlin related stuff Inspired by awesome-java.
+
+image::https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg[Awesome, link="https://github.com/sindresorhus/awesome"]
+image:https://travis-ci.org/JavaBy/awesome-kotlin.svg?branch=master["Build Status", link="https://travis-ci.org/JavaBy/awesome-kotlin"]
+
+*Checkout our new site with search and repository stars:* http://kotlin.link/[http://kotlin.link/]
+
+*RSS with information! Suggest links in issues (just create issue with link)* http://kotlin.link/rss.xml[RSS Link]
+
+toc::[]
+
+== Links
+=== Official Links
+https://github.com/jetbrains/kotlin[JetBrains/kotlin^] 
+http://kotlinlang.org/[Home Page^] 
+http://kotlinlang.org/docs/reference/[Language Reference^] 
+http://kotlinslackin.herokuapp.com/[Slack (2000+ users)^] 
+http://try.kotlinlang.org/[Try Kotlin!^] 
+http://blog.jetbrains.com/kotlin/[Blog^] 
+https://youtrack.jetbrains.com/issues/KT[Issue Tracker^] 
+https://twitter.com/kotlin[Twitter^] 
+
+=== Resources
+https://www.reddit.com/r/Kotlin/[/r/Kotlin^] 
+https://www.quora.com/topic/Kotlin[Quora Kotlin^] 
+https://github.com/trending?l=kotlin[Trending Kotlin on Github^] 
+http://antonioleiva.com/[Antonio Leiva - Android and any other monsters^] 
+https://www.linkedin.com/topic/group/kotlin-developers?gid=7417237[LinkedIn: Kotlin Developers (Join!)^] 
+https://plus.google.com/communities/104597899765146112928[Kotlin - Google+^] 
+
+=== Books
+https://manning.com/books/kotlin-in-action[Kotlin in Action - Dmitry Jemerov, Svetlana Isakova^] 
+https://leanpub.com/kotlin-for-android-developers[Kotlin for Android Developers - Antonio Leiva^] 
+
+
+== Libraries/Frameworks
+=== Web
+https://github.com/Kotlin/ktor[Kotlin/ktor^] - Web backend framework for Kotlin.
+https://github.com/TinyMission/kara[TinyMission/kara^] - Web framework written in Kotlin.
+https://github.com/jean79/yested[jean79/yested^] - A Kotlin framework for building web applications in Javascript.
+https://github.com/hhariri/wasabi[hhariri/wasabi^] - An HTTP Framework built with Kotlin for the JVM.
+https://github.com/Kotlin/kotlinx.html[Kotlin/kotlinx.html^] - Kotlin DSL for HTML.
+https://github.com/MarioAriasC/KotlinPrimavera[MarioAriasC/KotlinPrimavera^] - Spring support libraries for Kotlin.
+https://github.com/kohesive/kovert[kohesive/kovert^] - An invisible, super easy and powerful REST and Web framework over Vert.x or Undertow.
+
+=== Tests
+https://github.com/jetbrains/spek[JetBrains/spek^] - A specification framework for Kotlin.
+https://github.com/npryce/hamkrest[npryce/hamkrest^] - A reimplementation of Hamcrest to take advantage of Kotlin language features.
+https://github.com/nhaarman/mockito-kotlin[nhaarman/mockito-kotlin^] - Using Mockito with Kotlin.
+https://github.com/MarkusAmshove/Kluent[MarkusAmshove/Kluent^] - Fluent Assertion-Library for Kotlin.
+https://github.com/winterbe/expekt[winterbe/expekt^] -  BDD assertion library for Kotlin.
+
+=== Dependency Injection
+https://github.com/SalomonBrys/Kodein[SalomonBrys/Kodein^] - Painless Kotlin Dependency Injection .
+https://github.com/kohesive/injekt[kohesive/injekt^] - Dependency Injection / Object Factory for Kotlin
+
+=== Functional Programming
+https://github.com/MarioAriasC/funKTionale[MarioAriasC/funKTionale^] - Functional constructs for Kotlin.
+https://github.com/ReactiveX/RxKotlin[ReactiveX/RxKotlin^] - RxJava bindings for Kotlin.
+https://github.com/kittinunf/Result[kittinunf/Result^] - The modelling for success/failure of operations in Kotlin.
+https://github.com/brianegan/bansa[brianegan/bansa^] -  A state container for Kotlin & Java, inspired by Elm & Redux.
+
+=== JSON
+https://github.com/cbeust/klaxon[cbeust/klaxon^] - Lightweight library to parse JSON in Kotlin.
+https://github.com/SalomonBrys/Kotson[SalomonBrys/Kotson^] - Gson for Kotlin, Kotson enables you to parse and write JSON with Google's Gson using a conciser and easier syntax.
+https://github.com/FasterXML/jackson-module-kotlin[FasterXML/jackson-module-kotlin^] - Jackson module that adds support for serialization/deserialization of Kotlin classes and data classes.
+https://github.com/fboldog/ext4klaxon[fboldog/ext4klaxon^] - Type Extensions (Long, Int, Enum, Date) for Klaxon.
+
+=== Database
+https://github.com/jetbrains/Exposed[JetBrains/Exposed^] - Exposed is a prototype for a lightweight SQL library written over JDBC driver for Kotlin language.
+https://github.com/cheptsov/kotlin-nosql[cheptsov/kotlin-nosql^] - NoSQL database query and access library for Kotlin.
+https://github.com/jankotek/mapdb/tree/mapdb3[jankotek/mapdb^] - MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
+https://github.com/seratch/kotliquery[seratch/kotliquery^] - A handy database access library in Kotlin.
+https://github.com/andrewoma/kwery[andrewoma/kwery^] - Kwery is an SQL library for Kotlin.
+https://github.com/square/sqldelight[square/sqldelight^] - Generates Java models from CREATE TABLE statements.
+
+=== Tools
+https://github.com/Kotlin/dokka[Kotlin/dokka^] - Documentation Engine for Kotlin.
+https://github.com/Levelmoney/kbuilders[Levelmoney/kbuilders^] - KBuilders turns your Java builders into beautiful Type-Safe Builders.
+https://github.com/holgerbrandl/kscript[holgerbrandl/kscript^] - Scripting utils for Kotlin.
+
+=== Desktop
+https://github.com/edvin/tornadofx[edvin/tornadofx^] - Lightweight JavaFX Framework for Kotlin/
+https://github.com/griffon/griffon-kotlin-plugin[griffon/griffon-kotlin-plugin^] - Griffon Support
+
+=== Http Clients
+https://github.com/kittinunf/Fuel[kittinunf/Fuel^] - The easiest HTTP networking library for Kotlin/Android.
+https://github.com/jkcclemens/khttp[jkcclemens/khttp^] - Kotlin HTTP requests library.
+
+=== Editors
+https://github.com/vkostyukov/kotlin-sublime-package[vkostyukov/kotlin-sublime-package^] - A Sublime Package for Kotlin.
+https://github.com/udalov/kotlin-vim[udalov/kotlin-vim^] - Kotlin Syntax Highlighter for Vim.
+https://github.com/sargunster/kotlin-textmate-bundle[sargunster/kotlin-textmate-bundle^] - Kotlin bundle for TextMate.
+
+=== Misc
+https://github.com/Kotlin/kotlinx.reflect.lite[Kotlin/kotlinx.reflect.lite^] - Lightweight library allowing to introspect basic stuff about Kotlin symbols.
+https://github.com/puniverse/quasar/tree/master/quasar-kotlin[puniverse/quasar^] - Fibers, Channels and Actors for the JVM.
+https://github.com/MehdiK/Humanizer.jvm[MehdiK/Humanizer.jvm^] - Humanizer.jvm meets all your jvm needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.
+https://github.com/mplatvoet/kovenant[mplatvoet/kovenant^] - Promises for Kotlin and Android
+https://github.com/kohesive/klutter[kohesive/klutter^] - A mix of random small libraries for Kotlin, the smallest reside here until big enough for their own repository.
+https://github.com/kohesive/solr-undertow[kohesive/solr-undertow^] - Solr Standalone Tiny and High performant server.
+https://github.com/leprosus/kotlin-hashids[leprosus/kotlin-hashids^] - Library that generates short, unique, non-sequential hashes from numbers.
+https://github.com/mplatvoet/progress[mplatvoet/progress^] - Progress for Kotlin.
+https://github.com/leprosus/kotlin-cli[leprosus/kotlin-cli^] - Kotlin-CLI - command line interface options parser for Kotlin.
+https://github.com/sargunster/CakeParse[sargunster/CakeParse^] - Simple parser combinator library for Kotlin.
+https://github.com/sargunster/KtUnits[sargunster/KtUnits^] - Tiny unit conversion library for Kotlin.
+
+
+== Projects
+=== Web
+https://github.com/ssoudan/ktSpringTest[ssoudan/ktSpringTest^] - Basic Spring Boot app in Kotlin.
+https://github.com/IRus/kotlin-dev-proxy[IRus/kotlin-dev-proxy^] - Simple server for proxy requests and host static files written in Kotlin, Spark Java and Apache HttpClient.
+
+=== Build tools
+https://github.com/cbeust/kobalt[cbeust/kobalt^] - Build system inspired by Gradle.
+
+=== Misc
+https://github.com/brikk/brikk[brikk/brikk^] - Brikk dependency manager (Kotlin, KotlinJS, Java, ...).
+
+=== Examples
+https://github.com/Kotlin/kotlin-koans[Kotlin/kotlin-koans^] - Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
+https://github.com/jetbrains/swot[JetBrains/swot^] - Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
+https://github.com/robfletcher/midcentury-ipsum[robfletcher/midcentury-ipsum^] - Swingin’ filler text for your jet-age web page.
+https://github.com/robfletcher/lazybones-kotlin[robfletcher/lazybones-kotlin^] - The Lazybones app migrated to Kotlin as a learning exercise.
+https://github.com/wangjiegulu/KotlinAndroidSample[wangjiegulu/KotlinAndroidSample^] - Android sample with kotlin.
+
+
+== Android
+=== Libraries
+https://github.com/Kotlin/anko[Kotlin/anko^] - Pleasant Android application development.
+https://github.com/JakeWharton/kotterknife[JakeWharton/kotterknife^] - View injection library for Android
+https://github.com/nsk-mironov/kotlin-jetpack[nsk-mironov/kotlin-jetpack^] - A collection of useful extension methods for Android.
+https://github.com/pawegio/KAndroid[pawegio/KAndroid^] - Kotlin library for Android providing useful extensions to eliminate boilerplate code.
+https://github.com/chibatching/Kotpref[chibatching/Kotpref^] - Android SharedPreference delegation for Kotlin.
+https://github.com/TouK/bubble[TouK/bubble^] - Library for obtaining screen orientation when orientation is blocked in AndroidManifest.
+https://github.com/ragunathjawahar/kaffeine[ragunathjawahar/kaffeine^] - Kaffeine is a Kotlin-flavored Android library for accelerating development.
+https://github.com/mcxiaoke/kotlin-koi[mcxiaoke/kotlin-koi^] - Koi, a lightweight kotlin library for Android Development.
+https://github.com/BennyWang/KBinding[BennyWang/KBinding^] - Android View Model binding framework write in kotlin, base on anko, simple but powerful.
+https://github.com/inaka/KillerTask[inaka/KillerTask^] -  Android AsyncTask wrapper library, written in Kotlin.
+
+=== Projects
+https://github.com/antoniolg/Bandhook-Kotlin[antoniolg/Bandhook-Kotlin^] - A showcase music app for Android entirely written using Kotlin language.
+https://github.com/damianpetla/kotlin-dagger-example[damianpetla/kotlin-dagger-example^] - Example of Android project showing integration with Kotlin and Dagger 2.
+https://github.com/dodyg/AndroidRivers[dodyg/AndroidRivers^] - RSS Readers for Android.
+https://github.com/MakinGiants/android_banjo_tuner[MakinGiants/android_banjo_tuner^] - App that plays sounds helping to tune a brazilian banjo.
+https://github.com/inaka/kotlillon[inaka/kotlillon^] - Android Kotlin Examples
+
+
+== Articles, Videos, Blog Posts
+=== Posts
+http://jamie.mccrindle.org/2013/01/exploring-kotlin-standard-library-part-1.html[Exploring the Kotlin Standard Library^] - Jan 22, 2013
+http://zeroturnaround.com/rebellabs/the-adventurous-developers-guide-to-jvm-languages-kotlin/[The Adventurous Developer’s Guide to JVM languages – Kotlin^] - Jan 23, 2013
+http://www.oracle.com/technetwork/articles/java/breslav-1932170.html[The Advent of Kotlin: A Conversation with JetBrains' Andrey Breslav^] - Apr 02, 2013
+http://alexshabanov.com/category/languages/kotlin/[Non-trivial constructors in Kotlin^] - Dec 01, 2014
+http://blog.paralleluniverse.co/2015/06/04/quasar-kotlin/[Quasar and Kotlin – a Powerful Match^] - Jun 04, 2015
+https://medium.com/@octskyward/why-kotlin-is-my-next-programming-language-c25c001e26e3[Why Kotlin is my next programming language^] - Jul 06, 2015
+http://blog.zuehlke.com/en/android-kotlin/[Android + Kotlin = <3^] - Jul 20, 2015
+https://habrahabr.ru/company/jugru/blog/263905/[Без слайдов: интервью с Дмитрием Жемеровым из JetBrains (Russian)^] - Jul 31, 2015
+http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/[Building APIs on the JVM Using Kotlin and Spark – Part 1^] - Aug 06, 2015
+https://www.linkedin.com/grp/post/7417237-6042285669181648896[Production Ready Kotlin^] - Aug 26, 2015
+https://realm.io/news/droidcon-michael-pardo-kotlin/[Kotlin: New Hope in a Java 6 Wasteland^] - Aug 27, 2015
+https://medium.com/@octskyward/kotlin-fp-3bf63a17d64a[Kotlin ❤ FP^] - Sep 18, 2015
+http://kotlin4android.com/[Blog about Kotlin language and Android development.^] - Oct 21, 2015
+https://blog.frankel.ch/playing-with-spring-boot-vaadin-and-kotlin[Playing with Spring Boot, Vaadin and Kotlin.^] - Jan 10, 2016
+https://programmingideaswithjake.wordpress.com/2016/01/16/mimicking-kotlin-builders-in-java-and-python/[Mimicking Kotlin Builders in Java and Python.^] - Jan 16, 2016
+https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin[Developing Spring Boot applications with Kotlin.^] - Feb 15, 2016
+https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-1-3e5028491bcc#.5c7ixfzdv[Kotlin & Android: A Brass Tacks Experiment, Part 1.^] - Feb 1, 2016
+https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-2-c67661cfdf5f#.4s2hprcjw[Kotlin & Android: A Brass Tacks Experiment, Part 2.^] - Feb 1, 2016
+https://medium.com/@CodingDoug/kotlin-android-a-brass-tacks-experiment-part-3-84e65d567a37#.lgtyczp3h[Kotlin & Android: A Brass Tacks Experiment, Part 3.^] - Feb 16, 2016
+
+=== Videos
+https://vimeo.com/151846078[Fun with Kotlin^] - Jan 14, 2016
+https://www.youtube.com/watch?v=2IhT8HACc2E[JVMLS 2015 - Flexible Types of Kotlin - Andrey Breslav^] - Aug 12, 2015
+https://www.youtube.com/watch?v=vmjfIRsawlg[vJUG: Kotlin for Java developers.^] - Dec 11, 2014
+https://vimeo.com/110781020[GeeCON Prague 2014: Andrey Cheptsov - A Reactive and Type-safe Kotlin DSL for NoSQL and SQL^] - Nov 03, 2014
+https://www.youtube.com/watch?v=80xgl3KThvM[Kotlin NoSQL for MongoDB in Action.^] - Oct 22, 2014
+https://vimeo.com/105758307[Kotlin vs Java puzzlers - Svetlana Isakova^] - Sep 10, 2014
+
+=== Webinars
+http://blog.jetbrains.com/kotlin/2015/11/webinar-recording-functional-programming-with-kotlin/[Functional Programming with Kotlin ^] - Nov 5, 2015
+http://blog.jetbrains.com/kotlin/2015/09/webinar-recording-quasar-efficient-and-elegant-fibers-channels-and-actors/[Quasar: Efficient and Elegant Fibers, Channels and Actors^] - Sep 22, 2015
+
+
+
+''''
+NOTE: Get help with AsciiDoc syntax: http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
+
+image::https://licensebuttons.net/p/zero/1.0/80x15.png[CC0, link="http://creativecommons.org/publicdomain/zero/1.0/"]
