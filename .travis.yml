@@ -7,4 +7,4 @@ before_script:
   - cd awesome_bot-dev
   - bundle install
 script:
-  - ./bin/awesome_bot https://github.com/JavaBy/awesome-kotlin
+  - ./bin/awesome_bot ../README.adoc
