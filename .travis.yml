@@ -1,4 +1,7 @@
 language: ruby
 rvm: 2.2
 before_script: gem install awesome_bot
-script: git diff $TRAVIS_BRANCH --name-only | grep '.md' | xargs awesome_bot *.md -t 1
+script: 
+  - git diff $TRAVIS_BRANCH --color=always|perl -wlne 'print $1 if /^\e\[32m\+\e\[m\e\[32m(.*)\e\[m$/' > ab-test
+  - cat ab-test
+  - awesome_bot ab_test
