@@ -2,5 +2,5 @@ language: ruby
 rvm: 2.2
 before_script: gem install awesome_bot
 script: 
-  - git diff $TRAVIS_BRANCH --color=always|perl -wlne 'print $1 if /^\e\[32m\+\e\[m\e\[32m(.*)\e\[m$/' > temp 
+  - git diff $TRAVIS_BRANCH.. --color=always|perl -wlne 'print $1 if /^\e\[32m\+\e\[m\e\[32m(.*)\e\[m$/' > temp 
   - awesome_bot temp
