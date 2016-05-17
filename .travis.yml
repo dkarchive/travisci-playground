@@ -1,4 +1,4 @@
 language: ruby
 rvm: 2.2
 before_script: gem install awesome_bot
-script: awesome_bot README.md 
+script: git diff awesome_bot/gem.. --name-only | grep '.md' | xargs awesome_bot *.md -t 1
