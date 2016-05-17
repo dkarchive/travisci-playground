@@ -1,4 +1,4 @@
-https://github.com
+https://github.com/dkhamsing/awesome_bot
 
 # travisci-playground
 
